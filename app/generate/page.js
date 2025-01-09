@@ -34,7 +34,7 @@ const page = () => {
                 });
                 console.log("1", formData.usernameHandle);
                 console.log("2");
-                window.location.href = `http://localhost:3000/${formData.usernameHandle}`;
+                window.location.href = `${process.env.NEXT_PUBLIC_HOST}/${formData.usernameHandle}`;
             })
             .catch((error) => console.error(error));
     };
