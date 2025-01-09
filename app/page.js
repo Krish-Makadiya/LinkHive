@@ -4,10 +4,9 @@ export default function Home() {
     return (
         <div className="md:w-[80vw] w-[95vw] h-[90vh] mx-auto flex flex-col gap-10 mt-[120px] md:mt-0 md:justify-center items-center">
             <div className="flex flex-col-reverse items-center justify-center md:flex md:flex-row">
-                <div className="md:w-[40vw] w-full items-center flex flex-col gap-8">
+                <div className="md:w-[40vw] w-full md:items-baseline items-center flex flex-col gap-8">
                     <p className="font-[poppins] font-[900] text-[24px] mt-10 text-center md:text-left md:text-[50px] text-yellow-400">
-                        I Love YOUUUUU sooo muchhh NIRAJAAAAA..... frrrr ohkkk I wanna be with youu till thee endd babyaaaaa. I just Wanna Love YOUUUU forever... andd sorry babayaaa mi khup timee det nahiyeee sooooooo : (
-                            {/* All Your Links, One Click Away – Transform Your Online Presence! */}
+                            All Your Links, One Click Away – Transform Your Online Presence!
                     </p>
                     <Link
                         href="/generate"

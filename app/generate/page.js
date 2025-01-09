@@ -58,14 +58,14 @@ const page = () => {
     };
 
     return (
-        <div className="h-[70vh] w-[100vw] flex flex-col justify-center items-center md:mt-20 ">
+        <div className="h-[70vh] w-[100vw] flex flex-col items-center md:mt-10 mt-16">
             <p className="w-[90%] md:w-[40%] text-center md:text-[30px] text-[24px] font-[600]">
                 Unleash your creativity and connect the world with your{" "}
                 <span className="text-yellow-400">unique</span> links! now!
             </p>
 
             <form
-                className="md:px-10 md:w-[40%] w-[90%] mt-4 rounded shadow-md"
+                className="md:px-10 md:w-[40%] w-[90%] rounded shadow-md"
                 onSubmit={submitHandler}>
                 <div className="mb-4 flex flex-col gap-[2px]">
                     <p className="text-[18px]">Step:1</p>
