@@ -6,7 +6,9 @@ export default function Home() {
             <div className="flex flex-col-reverse items-center justify-center md:flex md:flex-row">
                 <div className="md:w-[40vw] w-full md:items-baseline items-center flex flex-col gap-8">
                     <p className="font-[poppins] font-[900] text-[24px] mt-10 text-center md:text-left md:text-[50px] text-yellow-400">
-                            All Your Links, One Click Away – Transform Your Online Presence!
+                            Babyaaaa I Love YOUUUU sooooo mcuhhhhh it cant even fit in this websiteeeeeee... I just wanna be withh youuuu till thee endd YARRRRRR my GULLYAAAAA sorry tulaaaa khup timee det nahiyeeee soooo : ( but I loveee YOUUUUUUUUUUU DARLINGGGGGGG
+                            
+                            {/* All Your Links, One Click Away – Transform Your Online Presence! */}
                     </p>
                     <Link
                         href="/generate"
