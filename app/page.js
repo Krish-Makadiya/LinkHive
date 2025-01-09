@@ -30,7 +30,7 @@ export default function Home() {
                     </Link>
                 </div>
 
-                <img src="./links.png" className=" md:w-[32vw] w-[40vw] rounded-lg" />
+                <img src="./links.PNG" className=" md:w-[32vw] w-[40vw] rounded-lg" />
             </div>
         </div>
     );
