@@ -24,7 +24,7 @@ const page = () => {
             redirect: "follow",
         };
 
-        fetch("http://localhost:3000/api/add", requestOptions)
+        fetch(`${process.env.NEXT_PUBLIC_HOST}/api/add`, requestOptions)
             .then((response) => response.text())
             .then((result) => {
                 setFormData({
